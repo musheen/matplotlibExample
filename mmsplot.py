@@ -204,7 +204,7 @@ for axis in ['bottom','left']:
 #
 
 # In order to get better looking plot, I add which ticks I want myself. 
-# This allows me to keep cartjunk to a minimum and make things look the way I want.
+# This allows me to keep chartjunk to a minimum and make things look the way I want.
 #
 ax.yaxis.set_ticks([1E-4,1E-6,1E-8,1E-10,1E-12])
 ax.set_yticklabels(["$\mathregular{10^{-4}}$","$\mathregular{10^{-6}}$","$\mathregular{10^{-8}}$","$\mathregular{10^{-10}}$","$\mathregular{10^{-12}}$"],fontsize="14")
